@@ -22,7 +22,7 @@ group :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
-  gem 'yard', require: false
+  gem 'yard', '>= 0.9.29', require: false
 end
 
 group :development, :test do
@@ -38,7 +38,7 @@ group :test do
   gem 'cuprite'
   gem 'rspec-rails'
   gem 'webmock'
-  gem 'webrick'
+  gem 'webrick', '>= 1.8.2'
 end
 
 group :production do
